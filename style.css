@@ -11,6 +11,10 @@ h1, h2, p{
     opacity: 0.8;
 }
 
+h2 {
+    margin-block-start: 0;
+}
+
 p{
     font-size: 0.8em;
 }
