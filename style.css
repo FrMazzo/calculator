@@ -32,6 +32,8 @@ p{
     font-size: 1.5em;
     opacity: 0.85;
     transition: opacity 0.3s;
+    border-radius: 0.1em;
+    box-shadow: 0 0.1em 0.1em rgb(150,150,150);
 }
 
 #container button.n {
@@ -39,11 +41,11 @@ p{
 }
 
 #container button.o {
-    background-color: rgba(150,150,150,0.5);
+    background-color: rgba(88, 156, 211, 0.5);
 }
 
 #container button.b {
-    background-color: rgba(150,150,150,1);
+    background-color: rgb(40, 140, 220);
     color: hsl(40, 10%, 95%);
     font-weight: bold;
 }
@@ -53,6 +55,8 @@ p{
     margin: 2px;
     border: none;
     border-top: 2px solid hsl(0, 0%, 95%);
+    border-radius: 0.1em;
+
 
     font-size: 1.5em;
     background-image: linear-gradient(0deg,hsla(40, 10%, 65%, 0.2) 0%, hsla(40, 10%, 100%, 0.01) 30%);
